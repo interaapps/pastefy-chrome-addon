@@ -1,0 +1,18 @@
+{
+  "name": "Pastefy",
+  "description": "Pastefy chromium addon",
+  "version": "1.0",
+  "author": "InteraApps",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "tabs",
+    "https://pastefy.ga/create:paste"
+  ],
+  "icons": {
+	  "32": "icon.png"
+  }
+}
